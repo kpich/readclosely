@@ -1,0 +1,16 @@
+<lift:surround with="single" at="content">
+    <div id="single">
+            <lift:CreatePassage.newpassage form="POST">
+                    <psg:warning />
+                    <br />
+                    <psg:preview />
+                    <br />
+                    Title: <psg:title />
+                    <br />
+                    Passage text: <psg:textarea />
+                    <psg:previewPsg />
+                    <psg:submitPsg />
+            </lift:CreatePassage.newpassage>
+    </div> <!--container-->
+</lift:surround>
+

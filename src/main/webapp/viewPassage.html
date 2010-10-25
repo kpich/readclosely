@@ -1,0 +1,15 @@
+<lift:surround with="default" at="content">
+<head>
+  <title><lift:Passages.viewPassagePageTitle /></title>
+  <script type="text/javascript" src="/script/psgscroll.js"> </script>
+  <script type="text/javascript" src="/script/jquery.scrollTo.js"> </script>
+  <script type="text/javascript" src="/script/drilldown.js"> </script>
+  <script type="text/javascript" src="/script/add.js"> </script>
+</head>
+
+  <div id="main">
+    <lift:Passages.passagetext />
+    <lift:Annotations />
+  </div>
+</lift:surround>
+

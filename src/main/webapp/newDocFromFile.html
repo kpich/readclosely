@@ -1,0 +1,13 @@
+<lift:surround with="single" at="content">
+    <div id="single">
+            <lift:CreateDocFromFile.newdoc form="POST" multipart="true">
+                    <div><newdoc:upload /></div>
+                    <div><newdoc:submit /></div>
+                    <div><newdoc:title /></div>
+                    <div><newdoc:author /></div>
+                    <div><newdoc:previewsecs /></div>
+                    <div><newdoc:submitdoc /></div>
+            </lift:CreateDocFromFile.newdoc>
+    </div> <!--container-->
+</lift:surround>
+

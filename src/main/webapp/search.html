@@ -1,0 +1,16 @@
+<lift:surround with="single" at="content">
+<head><title>ReadClosely :: Search</title></head>
+  <div id="searchwrap">
+      <div id="search">
+          <lift:Search form="POST">
+                  <div class="srchelem"><srch:desc /></div>
+                  <div class="srchelem"><srch:text /></div>
+                  <div class="srchelem"><srch:submit /></div>
+          </lift:Search>
+      </div>
+  </div>
+  <lift:Search.results />
+  <div class="clearall"/>
+  <lift:Footer />
+</lift:surround>
+

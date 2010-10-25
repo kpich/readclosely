@@ -1,0 +1,9 @@
+This is the source for http://readclosely.com, a somewhat unpolished webapp for facilitating conversations about texts at a fairly fine-grained level.
+
+The site is built in Lift. You can build with maven:
+    mvn compile
+or, if you want to run it on localhost,
+    mvn jetty:run
+(though you will need to either (a) have mysql running on localhost and provide a password in Boot.scala; or (b) change Boot.scala to use a different database).
+
+Caveat lector/scriptor: this was, shall we say, a "learning project", so some of the code is pretty hairy.

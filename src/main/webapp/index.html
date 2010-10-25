@@ -1,0 +1,30 @@
+<lift:surround with="single" at="content">
+<head> <title>ReadClosely</title> </head>
+
+  <div class="motto">
+    Read alongside the world
+  </div>
+  <lift:Msgs>
+      <lift:error_msg></lift:error_msg> 
+      <lift:error_class>fronterr</lift:error_class> 
+      <lift:notice_msg></lift:notice_msg>
+      <lift:notice_class>frontnotice</lift:notice_class>
+  </lift:Msgs>
+  <div id="maincontent">
+    <div id="searchwrap">
+        <div id="search">
+            <lift:Search form="POST">
+                    <div class="srchelem"><srch:desc /></div>
+                    <div class="srchelem"><srch:text /></div>
+                    <div class="srchelem"><srch:submit /></div>
+            </lift:Search>
+        </div>
+    </div>
+    <div id="frontpsglist">
+    <lift:Docs.frontpgdoclist />
+    </div>
+    <div class="clearall"/>
+  </div>
+  <lift:Footer />
+</lift:surround>
+

@@ -1,0 +1,15 @@
+<lift:surround with="single" at="content">
+    <div id="single">
+            <lift:CreateText.newtext form="POST">
+                    <doc:preview />
+                    <br />
+                    Title: <doc:title />
+                    <br />
+                    Author: <doc:author />
+                    <br />
+                    passage ids delimited by commas: <doc:textarea />
+                    <doc:submitDoc />
+            </lift:CreateText.newtext>
+    </div> <!--container-->
+</lift:surround>
+
